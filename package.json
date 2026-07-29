@@ -1,0 +1,17 @@
+{
+  "name": "quantum-c2-backend",
+  "version": "2026.0",
+  "description": "Quantum C2 Backend for Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
